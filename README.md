@@ -7,7 +7,7 @@
 
 - 생성된 총알은 랜덤의 좌표와 랜덤의 각도를 가지며 총알과 좀비가 닿을시 둘 다 사라지게 설정하였습니다.
 
-## 추가정보!
+## 추가정보
 ![GIF](https://github.com/user-attachments/assets/8eb2cd3c-3eb0-4cdb-9081-1d5604be5b88)
 
 TDS를 자세히보면 좀비는 3개의 라인으로 나눠져있으며 각 라인의 좀비는 해당라인을 제외한 다른라인에 간섭을 주지 않습니다. 해당 기능을 구현하기 위해 3개의 Layer를 구분해 랜덤으로 Layer를 주고 Physics 2D Collision Matrix를 설정하여 해당 기능을 구현하였습니다.
